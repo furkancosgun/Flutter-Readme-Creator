@@ -57,7 +57,7 @@ class Proccess extends ChangeNotifier {
       skill2 = "";
       for (var element in _items) {
         skill2 +=
-            """<img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/$element.svg" width="36" height="36"/>\n\n""";
+            """<img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/$element.svg" width="36" height="36"/>\n\n""";
       }
       skill = "\n ### Skills \n  <p align='left'> $skill2 </p> \n\n";
     } else {
@@ -205,7 +205,7 @@ class Proccess extends ChangeNotifier {
     gitHubName = a;
     a != ""
         ? github =
-            """<a href="https://www.github.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/github.svg" width="32" height="32" /></a>\n\n"""
+            """<a href="https://www.github.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/github.svg" width="32" height="32" /></a>\n\n"""
         : github = "";
     notifyListeners();
   }
@@ -213,7 +213,7 @@ class Proccess extends ChangeNotifier {
   void writeTwitter(String a) {
     a != ""
         ? twitter =
-            """<a href="https://www.twitter.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/twitter.svg" width="32" height="32" /></a>\n\n"""
+            """<a href="https://www.twitter.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/twitter.svg" width="32" height="32" /></a>\n\n"""
         : twitter = "";
     notifyListeners();
   }
@@ -221,7 +221,7 @@ class Proccess extends ChangeNotifier {
   void writeMedium(String a) {
     a != ""
         ? medium =
-            """<a href="https://www.medium.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/medium.svg" width="32" height="32" /></a>\n\n"""
+            """<a href="https://www.medium.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/icons/medium.svg" width="32" height="32" /></a>\n\n"""
         : medium = "";
 
     notifyListeners();
@@ -230,7 +230,7 @@ class Proccess extends ChangeNotifier {
   void writeLinkedin(String a) {
     a != ""
         ? linkedin =
-            """<a href="https://www.linkedin.com/in/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/linkedin.svg" width="32" height="32" /></a>\n\n"""
+            """<a href="https://www.linkedin.com/in/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/linkedin.svg" width="32" height="32" /></a>\n\n"""
         : linkedin = "";
 
     notifyListeners();
@@ -239,7 +239,7 @@ class Proccess extends ChangeNotifier {
   void writeTwitch(String a) {
     a != ""
         ? twitch =
-            """<a href="https://www.linkedin.com/in/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/twitch.svg" width="32" height="32" /></a>\n\n """
+            """<a href="https://www.linkedin.com/in/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/twitch.svg" width="32" height="32" /></a>\n\n """
         : twitch = "";
 
     notifyListeners();
@@ -248,7 +248,7 @@ class Proccess extends ChangeNotifier {
   void writeYoutube(String a) {
     a != ""
         ? youtube =
-            """<a href="https://www.twitch.tv/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/youtube.svg" width="32" height="32" /></a>\n\n"""
+            """<a href="https://www.twitch.tv/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/youtube.svg" width="32" height="32" /></a>\n\n"""
         : youtube = "";
 
     notifyListeners();
@@ -257,7 +257,7 @@ class Proccess extends ChangeNotifier {
   void writeDiscord(String a) {
     a != ""
         ? discord =
-            """ <a href="https://discord.com/users/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/discord.svg" width="32" height="32" /></a>\n\n"""
+            """ <a href="https://discord.com/users/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/discord.svg" width="32" height="32" /></a>\n\n"""
         : discord = "";
 
     notifyListeners();
@@ -266,7 +266,7 @@ class Proccess extends ChangeNotifier {
   void writeInstagram(String a) {
     a != ""
         ? intagram =
-            """<a href="http://www.instagram.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/instagram.svg" width="32" height="32" /></a>\n\n"""
+            """<a href="http://www.instagram.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/instagram.svg" width="32" height="32" /></a>\n\n"""
         : intagram = "";
 
     notifyListeners();
@@ -275,7 +275,7 @@ class Proccess extends ChangeNotifier {
   void writeFacebook(String a) {
     a != ""
         ? facebook =
-            """<a href="https://www.facebook.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/facebook.svg" width="32" height="32" /></a>\n\n"""
+            """<a href="https://www.facebook.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/facebook.svg" width="32" height="32" /></a>\n\n"""
         : facebook = "";
 
     notifyListeners();
@@ -284,7 +284,7 @@ class Proccess extends ChangeNotifier {
   void writeDribble(String a) {
     a != ""
         ? dribble =
-            """<a href="https://www.dribbble.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/dribbble.svg" width="32" height="32" /></a>\n\n"""
+            """<a href="https://www.dribbble.com/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/dribbble.svg" width="32" height="32" /></a>\n\n"""
         : dribble = "";
 
     notifyListeners();
@@ -293,7 +293,7 @@ class Proccess extends ChangeNotifier {
   void writeStackover(String a) {
     a != ""
         ? stackoverflow =
-            """<a href="https://www.stackoverflow.com/users/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/beacaa133dc0b38395c581a1c8cb37bfb1d8465f/icons/stackoverflow.svg" width="32" height="32" /></a>\n\n"""
+            """<a href="https://www.stackoverflow.com/users/$a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Furkannc/Flutter-Readme-Creator/9dfce771730a15b9a5c6d7bd8506d1fa3d4f44b7/icons/stackoverflow.svg" width="32" height="32" /></a>\n\n"""
         : stackoverflow = "";
 
     notifyListeners();
