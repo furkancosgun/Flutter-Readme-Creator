@@ -54,10 +54,10 @@ class _mainPageState extends State<mainPage> {
                 color: Colors.amber,
               ),
               child: Text(
-                'Github Markdown Creator',
+                'Github Github Readme Creator',
                 style: TextStyle(
                     color: Colors.black,
-                    fontSize: 40,
+                    fontSize: 30,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 2),
               ),

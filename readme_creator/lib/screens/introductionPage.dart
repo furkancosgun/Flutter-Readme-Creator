@@ -16,6 +16,7 @@ class introductionPage extends StatelessWidget {
     return Consumer<Proccess>(
       builder: (context, value, child) {
         return ListView(
+          scrollDirection: Axis.vertical,
           children: [
             SingleContent(
                 function: (v) => value.writeName(v),
