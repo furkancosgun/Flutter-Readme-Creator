@@ -1,7 +1,7 @@
 
-Flutter Markdown Creator
+Flutter Github Readme Creator
 -
-Flutter Markdown Creator helps developers create an awesome GitHub profile in minutes.
+Flutter Github Readme Creator helps developers create an awesome GitHub profile in minutes.
 
 
 ## Features
