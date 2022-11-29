@@ -38,3 +38,73 @@ ProfileMe has a very simple, two-step installation process.
 Contributions are always welcome!
 
 To get started, please take a look at the 'Issues' tab, where you will find open issues that exist with the project. If you see one that interests you, simply create a branch and submit a PR for review and approval.
+
+
+# Screenshots
+
+
+<table border="1">
+  <tr>
+    <td align="center">
+      <img
+        src="https://github.com/furkancosgun/Flutter-Readme-Creator/blob/main/ss/ss1.png"
+      />
+    </td>
+    <td align="center">
+      <img
+        src="https://github.com/furkancosgun/Flutter-Readme-Creator/blob/main/ss/ss2.png"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <p><b>INTRODUCTION</b></p>
+    </td>
+    <td align="center">
+      <p><b>SKILLS</b></p>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img
+        src="https://github.com/furkancosgun/Flutter-Readme-Creator/blob/main/ss/ss3.png"
+      />
+    </td>
+    <td align="center">
+      <img
+        src="https://github.com/furkancosgun/Flutter-Readme-Creator/blob/main/ss/ss4.png"
+      />
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <p><b>SOCIALS</b></p>
+    </td>
+    <td align="center">
+      <p><b>BADGES</b></p>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img
+        src="https://github.com/furkancosgun/Flutter-Readme-Creator/blob/main/ss/ss5.png"
+      />
+    </td>
+    <td align="center">
+      <img
+        src="https://github.com/furkancosgun/Flutter-Readme-Creator/blob/main/ss/ss6.png"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <p><b>SUPPORT</b></p>
+    </td>
+    <td align="center">
+      <p><b>DRAWER</b></p>
+    </td>
+  </tr>
+</table>
